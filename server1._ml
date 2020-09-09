@@ -1,0 +1,9 @@
+service: bootstrap-demo
+
+provider: 
+  name: aws
+  runtime: nodejs12.18
+
+custom: 
+  client: 
+    bucketName: cecilio-node-bootstrapdemo-20200907
