@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Bootstrap demo
 description: A demo with bootstrap
+include : [node_modules]

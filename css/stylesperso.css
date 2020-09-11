@@ -1,13 +1,13 @@
 
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Times New Roman", cursive;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Gill Sans", monospace;
 }
 
 h2 {
@@ -18,15 +18,20 @@ header h2 {
     color: #cec8ff;
 }
 
+p {
+    color : rgb(0, 128, 6);
+    font-family : "Gill Sans", monospace, large;
+}
+
 footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-image: linear-gradient(#0b920b, white);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin : 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-image: linear-gradient(to right, #03802d, #30c573, #106b5c);
     color: white;
 }
 .row-content {
@@ -36,7 +41,7 @@ footer {
 }
 
 .navbar {
-    background-color: #901cad;
+    background-color: #088d30;
 }
 
 .btn-link {
@@ -49,10 +54,22 @@ footer {
     padding: 10px;
 }
 
+.list-unstyled {
+    color : black;
+}
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
     border: solid grey;
+}
+
+.btn-info {
+    background-color :black;
+}
+
+.text-white {
+    background-color :black;
 }
